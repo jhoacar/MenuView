@@ -6,8 +6,6 @@ import { fetchData } from './components/GetComponents/Getters';
 
 import MenuView from "./components/ViewComponents/MenuView";
 
-//import MenuEdit from "./components/EditComponents/MenuEdit";
-
 import globalReducer from './components/ReducersComponents/GlobalReducer';
 
 import './styles/app.scss';

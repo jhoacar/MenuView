@@ -36,7 +36,6 @@ const ImageCarousel = ({ listImages, className, setVisibleImage, marginCategory,
         else if (listSRC && actualImage === listSRC.length - 1)
             nextImage = 0;
 
-
         setActualImage(nextImage);
     }
 

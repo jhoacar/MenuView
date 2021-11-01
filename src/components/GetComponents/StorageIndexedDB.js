@@ -9,7 +9,6 @@
 //Si ocurre algun error en la peticion se rechaza la promesa
 
 const nameDBB = "imagesMenu";
-//El store anterior fue "srcImages"
 const nameStoreDBB = "srcImages";
 const versionDBB = 1;
 const nameKey = "srcImage";
@@ -57,11 +56,10 @@ const saveAtDBB = function (srcImage, dataImage) {
   const objectStore = transaction.objectStore(nameStoreDBB);
   try {
     const request = objectStore.add(data);
-    request.onerror = error => { /*alert("Ocurrio un error en guardar en la base de datos");/*console.log(error)*/ };
-    request.onsuccess = event => { /*alert("Todo funciono de maravilla y se guardo");/*console.log(event)*/ };
+    request.onerror = error => { console.log("Ocurrio un error en guardar en la base de datos: ",error)};
+    request.onsuccess = event => { console.log("Todo funciono de maravilla y se guardo: ", event)};
   } catch (error) {
-    //alert("Ocurrio un error en escritura de la base de datos")
-    console.log(error)
+    console.log("Ocurrio un error en escritura de la base de datos: ",error)
   }
 }
 
@@ -79,11 +77,11 @@ const searchAtDBB = function (srcImage) {
 
     request.onsuccess = function (event) {
       if (request.result) {
-        //alert("Se encontro la imagen en la base de datos y se va a cargar")
+        console.log("Se encontro la imagen"+srcImage+" en la base de datos y se va a cargar");
         resolve(request.result[nameValue]);
       }
       else {
-        //alert("No se encontro la imagen en la base de datos")
+        console.log("No se encontro la imagen"+srcImage+"en la base de datos");
         reject("No se encontro la imagen en la base de datos");
       }
     };

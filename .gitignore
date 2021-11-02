@@ -13,6 +13,7 @@
 
 #images
 /public/images
+git rm --cached -r public/images
 
 # misc
 .DS_Store

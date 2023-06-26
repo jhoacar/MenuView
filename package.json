@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage":"http://jhoacar.github.io/menu-view",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^17.0.2",

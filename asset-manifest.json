@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/menu-view/static/css/main.ea9cf697.chunk.css",
+    "main.js": "/menu-view/static/js/main.7291415c.chunk.js",
+    "main.js.map": "/menu-view/static/js/main.7291415c.chunk.js.map",
+    "runtime-main.js": "/menu-view/static/js/runtime-main.404d25cc.js",
+    "runtime-main.js.map": "/menu-view/static/js/runtime-main.404d25cc.js.map",
+    "static/js/2.afb98b73.chunk.js": "/menu-view/static/js/2.afb98b73.chunk.js",
+    "static/js/2.afb98b73.chunk.js.map": "/menu-view/static/js/2.afb98b73.chunk.js.map",
+    "index.html": "/menu-view/index.html",
+    "static/css/main.ea9cf697.chunk.css.map": "/menu-view/static/css/main.ea9cf697.chunk.css.map",
+    "static/js/2.afb98b73.chunk.js.LICENSE.txt": "/menu-view/static/js/2.afb98b73.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/menu-view/static/media/fondo-retro2.0b119034.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.404d25cc.js",
+    "static/js/2.afb98b73.chunk.js",
+    "static/css/main.ea9cf697.chunk.css",
+    "static/js/main.7291415c.chunk.js"
+  ]
+}
